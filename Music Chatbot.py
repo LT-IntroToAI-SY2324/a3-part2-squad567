@@ -1,5 +1,5 @@
 from Songdb import song_db
-from match import match
+from Match import match
 from typing import List, Tuple, Callable, Any
 
 # # The projection functions, that give us access to certain parts of a "movie" (a tuple)
@@ -8,8 +8,9 @@ from typing import List, Tuple, Callable, Any
 
 
 
-def get_director(song_db: Tuple[str, List[str], List[str]]) -> str:
+def get_song(song_db: Tuple[str, List[str], List[str]]) -> str:
     print(song_db[1])
+print(get_song("Pitbull"))
 
 # # for movie in movie_db:
 # #     print(get_director(movie))
