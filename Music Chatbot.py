@@ -1,4 +1,4 @@
-from Music Chatbot import 
+from Songdb import song_db
 from match import match
 from typing import List, Tuple, Callable, Any
 
@@ -8,8 +8,8 @@ from typing import List, Tuple, Callable, Any
 
 
 
-# def get_director(movie: Tuple[str, str, int, List[str]]) -> str:
-#     return movie[1]
+def get_director(song_db: Tuple[str, List[str], List[str]]) -> str:
+    print(song_db[1])
 
 # # for movie in movie_db:
 # #     print(get_director(movie))
