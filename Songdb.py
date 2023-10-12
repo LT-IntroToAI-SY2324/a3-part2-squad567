@@ -182,10 +182,5 @@ song_db: List[Tuple[str, List[str], List[str]]]=[
             "Under the Influence",
         ]
     ),
-    (
-        "Rhianna",
-        [
-            ""
-        ]
-    )
+    
 ]

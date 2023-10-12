@@ -8,20 +8,21 @@ from typing import List, Tuple, Callable, Any
 
 
 
-def get_song(song_db: Tuple[str, List[str], List[str]]) -> str:
-    print(song_db[1])
-print(get_song("Pitbull"))
+def get_artist(song_db: Tuple[str, List[str], List[str]]) -> str:
+    return song_db[0]
 
-# # for movie in movie_db:
-# #     print(get_director(movie))
+# for artist in song_db:
+#     print(get_artist(artist))
 
-# def get_year(movie: Tuple[str, str, int, List[str]]) -> int:
-#     return movie[2]
+def get_songs(song_db: Tuple[str, List[str], List[str]]) -> str:
+    return song_db[2]
+# for songs in song_db:
+#     print(get_songs(song))
 
-
-# def get_actors(movie: Tuple[str, str, int, List[str]]) -> List[str]:
-#     return movie[3]
-
+def get_album(song_db: Tuple[str, List[str], List[str]]) -> str:
+    return song_db[1]
+# for album in song_db:
+#     print(get_album(album))
 
 # # Below are a set of actions. Each takes a list argument and returns a list of answers
 # # according to the action and the argument. It is important that each function returns a
