@@ -23,6 +23,34 @@ def get_album(song_db: Tuple[str, List[str], List[str]]) -> str:
     return song_db[1]
 # for album in song_db:
 #     print(get_album(album))
+result = []
+
+#Give songs based on artist
+def song_by_artist(matches: List[str]) -> List[str]:
+    i = 0
+    print
+    for artist in song_db:
+        if get_artist(artist) == List:
+            print("passed")
+        else:
+            i= i +1 
+
+#ablum based on artist
+#Artists by song
+#artists by album
+print(song_by_artist("Kanye"))
+
+
+
+
+
+
+print(result)
+
+
+
+
+
 
 # # Below are a set of actions. Each takes a list argument and returns a list of answers
 # # according to the action and the argument. It is important that each function returns a
