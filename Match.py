@@ -20,7 +20,7 @@ def match(pattern: List[str], source: List[str]) -> List[str]:
 
     # keep checking as long as we haven't hit the end of both pattern and source while
     # pind is still a valid index OR sind is still a valid index (valid index means that
-    # the index is != to the length of the list)
+    # the index is  != to the length of the list)
     while pind != len(pattern) or sind != len(source):
         # 1) check to see if we are at the end of the pattern (from the while condition
         # we know since we already checked to see if you were at the end of the pattern
